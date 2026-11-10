@@ -1,0 +1,7 @@
+faster-whisper==1.2.1    # fast transcription (CTranslate2)
+openwakeword==0.6.0      # wake word runtime + bundled Silero VAD
+onnxruntime==1.31.0
+PyAudio==0.2.14          # microphone input
+numpy==2.5.4
+openai-whisper==20250625 # only used to decode audio files via ffmpeg in fast_transcribe.py's CLI
+nvidia-cublas-cu12        # CUDA 12 cuBLAS for GPU transcription (cuDNN ships with ctranslate2)
