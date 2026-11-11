@@ -1,0 +1,35 @@
+{
+  "_note": "PLACEHOLDER catalog: the five books in Project-Alex/images/bookshelf.jpg with stand-in descriptions. Replace with the real shelf. 'title' and 'author' must be spelled as printed on the spine: the camera's OCR text is matched against them to find each book. 'position' is optional: the book's place counted from the left (1 = leftmost), used only when the spine can't be read.",
+  "books": [
+    {
+      "position": 1,
+      "title": "Financial Institutions Management",
+      "author": "Saunders and Lange",
+      "description": "PLACEHOLDER. A finance textbook about how banks and other financial institutions work and manage risk, money, lending and investment."
+    },
+    {
+      "position": 2,
+      "title": "Physics: Principles with Applications",
+      "author": "Giancoli",
+      "description": "PLACEHOLDER. An introductory physics textbook covering motion, forces, energy, electricity and waves, with real-world science examples."
+    },
+    {
+      "position": 3,
+      "title": "An Introduction to Grammar",
+      "author": "LaPalombara",
+      "description": "PLACEHOLDER. A book about the English language: grammar, sentence structure, linguistics and how to write correctly."
+    },
+    {
+      "position": 4,
+      "title": "Accounting: A Framework for Decision Making",
+      "author": "Jackling, Raar, Wigg, Williams and Wines",
+      "description": "PLACEHOLDER. A business textbook on accounting: bookkeeping, financial statements, budgets and using numbers to make business decisions."
+    },
+    {
+      "position": 5,
+      "title": "Basic Genetics",
+      "author": "Hartl, Freifelder and Snyder",
+      "description": "PLACEHOLDER. A biology textbook about genetics: DNA, genes, heredity, evolution and how traits are passed on in living things."
+    }
+  ]
+}

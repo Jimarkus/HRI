@@ -1,0 +1,10 @@
+# Install the GPU build of torch first:
+#   pip install torch==2.14.1 torchvision --index-url https://download.pytorch.org/whl/cu126
+-r "../audio pipeline/requirements.txt"
+sentence-transformers==6.2.0   # embedding recommender
+laya==0.4.22                   # only for --recommender hybrid
+ultralytics==8.4.210           # YOLO, used by Project-Alex/spine_detector.py
+paddleocr==3.7.0               # spine OCR, used by Project-Alex/spine_detector.py
+paddlepaddle==3.3.1
+opencv-contrib-python==4.10.0.84   # the OpenCV build PaddleOCR needs; do not also install opencv-python
+depthai==3.12.0                # OAK-D Lite camera, only for --camera
